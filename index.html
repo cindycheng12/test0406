@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .pp{
+            float: left;
+            padding: 20px;
+ 
+        }
+        .left{
+            width: 20%;
+            background-color: rgb(101, 131, 233);
+            float: left;
+            padding: 0.5ex;
+        }
+        .main{
+            width: 40%;  
+            background-color: rgb(189, 187, 61);
+            padding: 0.5ex;
+        }
+        .right{
+            width: 40%;
+            background-color: rgb(219, 94, 209);
+            padding: 0.5ex;
+        }
+        .a{
+            max-width: 100%;
+        }
+        .cc{
+            background-image: url('./3.jpg');
+        }
+        @media screen and (max-width=800px) and (min-width:600px){
+            .left{
+                width: 20%;
+                float: right;
+ 
+            }
+            .main{
+                width: 40%;
+ 
+            }
+            .right{
+                width: 60%;
+ 
+            }
+        }
+    </style>
+</head>
+<body class="cc">
+    <h1> 這是村田</h1>
+ 
+    <div class="left pp">路柱就是他</div>
+    <div class="main pp">
+        <img src="./2.jpg" alt="" class="a">
+    </div>
+    <div class="right pp">最強路人</div>
+</body>
+</html>
